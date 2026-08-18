@@ -1,23 +1,20 @@
 ## Project Structure
 
+```text
 src
 ├── app
 │   ├── api
+│   ├── globals.css
 │   ├── layout.js
 │   └── page.js
+│
 ├── components
-│   ├── ChartRenderer.jsx
+│   ├── charts
+│   │   └── ChartRenderer.jsx
 │   ├── Mermaid.jsx
 │   ├── TabCharts.jsx
 │   ├── TabRag.jsx
 │   └── TabScrape.jsx
+│
 └── lib
 ```
-
-## Features
-
-- AI Charts Generation
-- Web Scraping & Summarization
-- RAG-based Data Querying
-- ER Diagram Generation
-- Azure OpenAI Integration
