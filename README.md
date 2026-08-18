@@ -13,3 +13,11 @@ src
 │   └── TabScrape.jsx
 └── lib
 ```
+
+## Features
+
+- AI Charts Generation
+- Web Scraping & Summarization
+- RAG-based Data Querying
+- ER Diagram Generation
+- Azure OpenAI Integration
