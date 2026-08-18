@@ -42,3 +42,37 @@ AI Data Studio integrates multiple AI-driven workflows into a single application
 - **Visualization:** Mermaid.js, Custom Chart Components
 - **Data Processing:** XLSX / Excel-based workflows
 - **Architecture:** Multi-Agent AI Workflow with RAG Integration
+
+---
+
+## ⚙️ Setup & Run
+
+### Create Next.js Application
+
+```bash
+bun create next-app@latest ai-data-studio --js --tailwind --eslint --app
+```
+
+### Install Dependencies
+
+```bash
+bun add openai cheerio papaparse xlsx recharts mermaid zod
+```
+
+### Install Packages
+
+```bash
+bun install
+```
+
+### Start Development Server
+
+```bash
+bun run dev
+```
+
+### Open Application
+
+```text
+http://localhost:3000
+```
