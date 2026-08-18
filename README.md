@@ -1,2 +1,15 @@
-# AI-data-studio
-AI-powered Data Analysis Studio using Next.js, Bun, Azure OpenAI, and Mermaid
+## Project Structure
+
+src
+├── app
+│   ├── api
+│   ├── layout.js
+│   └── page.js
+├── components
+│   ├── ChartRenderer.jsx
+│   ├── Mermaid.jsx
+│   ├── TabCharts.jsx
+│   ├── TabRag.jsx
+│   └── TabScrape.jsx
+└── lib
+```
