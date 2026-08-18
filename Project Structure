@@ -1,8 +1,30 @@
-ai-data-studio
+## Project Structure
 
+```text
+ai-data-studio
 ├── src
 │   ├── app
 │   │   ├── api
+│   │   │   ├── charts
+│   │   │   │   └── suggest
+│   │   │   │       └── route.js
+│   │   │   │
+│   │   │   ├── rag
+│   │   │   │   ├── ask
+│   │   │   │   │   └── route.js
+│   │   │   │   ├── er
+│   │   │   │   │   └── route.js
+│   │   │   │   ├── schema
+│   │   │   │   │   └── route.js
+│   │   │   │   └── upload
+│   │   │   │       └── route.js
+│   │   │   │
+│   │   │   ├── scrape
+│   │   │   │   └── route.js
+│   │   │   │
+│   │   │   └── summarize
+│   │   │       └── route.js
+│   │   │
 │   │   ├── globals.css
 │   │   ├── layout.js
 │   │   └── page.js
@@ -20,5 +42,9 @@ ai-data-studio
 ├── data
 ├── .env.local
 ├── package.json
+├── bun.lock
 ├── next.config.mjs
-└── bun.lock
+├── eslint.config.mjs
+├── jsconfig.json
+└── postcss.config.mjs
+```
