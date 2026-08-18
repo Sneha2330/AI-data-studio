@@ -1,6 +1,5 @@
-## Project Structure
+Project Structure
 
-```text
 ai-data-studio
 ├── src
 │   ├── app
@@ -47,4 +46,3 @@ ai-data-studio
 ├── eslint.config.mjs
 ├── jsconfig.json
 └── postcss.config.mjs
-```
